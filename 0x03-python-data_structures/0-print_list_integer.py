@@ -7,4 +7,5 @@ def print_list_integer(my_list=[]):
             try:
                 print("{:d}".format(i))
             except TypeError:
-                print("The value {} cannot be converted into integer.".format(i))
+                print("The value {} cannot be converted \
+                        into integer.".format(i))
